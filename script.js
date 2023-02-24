@@ -20,8 +20,9 @@ result.innerHTML=`
 <h1 class="temp">${temp}° </h1>
 <h2 class="weather">${weather}</h2>
 <h4 class="feels">Feels like ${feels_like}°</h4>
-<h4 class="mintemp">min${tempMin}°</h4>
-<h4 class="maxtemp">max${tempMax}°</h4>
+<hr>
+<h4 class="mintemp">min ${tempMin}°</h4>
+<h4 class="mintemp">max ${tempMax}°</h4>
 `
 
 }

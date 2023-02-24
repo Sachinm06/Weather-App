@@ -69,4 +69,30 @@ body {
 }
 .city{
     color: white;
+    margin-top: 20px;
+}
+.temp{
+    color: white;
+    font-size: 80px !important;
+
+}
+.weather{
+    color: white;
+
+}
+.feels{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.mintemp{
+    margin-left: 100px;
+    float: left;
+    margin-top: 20px;
+    color: white;
+
+}
+#result{
+    
 }
