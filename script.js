@@ -16,7 +16,7 @@ tempMax=((cityData.main.temp_max)-273.15).toFixed()
 feels_like=((cityData.main.feels_like)-273.15).toFixed()
 
 result.innerHTML=`
-<h2 class="city"><i class="fa-solid fa-location-dot"></i>  ${cityName}</h2> 
+<h2 class="city"><span><i class="fa-solid fa-location-dot"></i> </span> ${cityName}</h2> 
 <h1 class="temp">${temp}° </h1>
 <h2 class="weather">${weather}</h2>
 <h4 class="feels">Feels like ${feels_like}°</h4>
