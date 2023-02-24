@@ -20,7 +20,7 @@ body {
     left: 50%;
 }
 
-.container {
+.container-box {
     width: 100%;
     background: rgba(88, 161, 225, 0.557);
     padding: 3em 1.8em;
@@ -66,4 +66,7 @@ body {
     color: rgba(29, 124, 207, 0.849);
     background: white;
     cursor:pointer;
+}
+.city{
+    color: white;
 }
