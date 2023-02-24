@@ -93,6 +93,9 @@ body {
     color: white;
 
 }
-#result{
-    
+@media screen and (max-width:500px ){
+    .mintemp{
+        margin-left: 75px;
+
+    }
 }
