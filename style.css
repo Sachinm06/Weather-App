@@ -1,14 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-body{
+
+body {
     height: 100vh;
-    background: linear-gradient(135deg, rgb(67, 185, 113),rgb(185, 107, 81));
+    background: linear-gradient(135deg, rgb(67, 185, 113), rgb(185, 107, 81));
 }
-.wrapper{
+
+.wrapper {
     font-size: 16px;
     width: 90vw;
     max-width: 28em;
@@ -17,7 +19,8 @@ body{
     top: 50%;
     left: 50%;
 }
-.container{
+
+.container {
     width: 100%;
     background: rgba(88, 161, 225, 0.557);
     padding: 3em 1.8em;
@@ -26,7 +29,8 @@ body{
     box-shadow: 10px 20px 35px 0;
     text-align: center;
 }
-.search-container{
+
+.search-container {
     font-size: 1em;
     display: grid;
     grid-template-columns: 9fr 3fr;
@@ -34,16 +38,32 @@ body{
 }
 
 .search-container input,
-.search-container button{
+.search-container button {
     outline: none;
     border: none;
     font-size: 1em;
 }
-.search-container input{
+
+.search-container input {
     padding: .7em;
     background-color: transparent;
     border-bottom: 2px solid rgba(255, 255, 255, 0.275);
-    color: white;
-    
+    color: rgba(255, 255, 255, 0.727);
+    font-weight: 500;
 
+}
+
+.search-container input::placeholder{
+    color: rgba(255, 255, 255, 0.353);
+}
+
+.search-container button{
+    color:rgba(29, 124, 207, 0.849) ;
+    background-color: whitesmoke ;
+    border-radius: 10px;
+}
+.search-container button:hover{
+    color: rgba(29, 124, 207, 0.849);
+    background: white;
+    cursor:pointer;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
-<div class="wrapper">
-    <div class="container">
-        <div class="search-container">
-            <input id="city" value="mumbai" type="text" placeholder="Enter a city name">
-            <button id="search-btn">Search</button>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="search-container">
+                <input id="city" value="mumbai" type="text" placeholder="Enter a city name">
+                <button onclick="searchbtn()" id="search-btn">Search</button>
+            </div>
+            <div id="result">
+
+            </div>
         </div>
     </div>
-</div>
-    
+
 </body>
 <script src="./script.js"></script>
+
 </html>
